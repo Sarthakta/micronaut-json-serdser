@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: json-ser-dser
+
+jackson:
+  serialization:
+    indentOutput: true
+    writeDatesAsTimestamps: false
+  deserialization:
+    useBigIntegerForInts: true
+    failOnUnknownProperties: false
